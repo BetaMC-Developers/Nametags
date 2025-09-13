@@ -1,0 +1,14 @@
+name: Nametags
+version: 1.0.0
+main: org.betamc.nametags.NametagsPlugin
+author: zavdav
+
+commands:
+  nametag:
+    description: Sets a player's name tag
+    usage: /nametag <name>
+
+permissions:
+  nametags.use:
+    description: Allows access to /nametag
+    default: op
